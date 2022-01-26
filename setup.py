@@ -4,15 +4,15 @@ with open("README.md", "r") as f:
 	long_description = f.read()
 import setuptools
 setuptools.setup(name='Mymacroprocessor',
-    version='0.0.2',
-    description='python file macro processor',
+    version='0.0.3',
+    description='python file macro processor,Support label if,ifdef,ifndef,elif,else,endif,defined,define,undef, ',
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='nufeng',
     author_email='18478162@qq.com',
     requires= ['re'],
     url='https://github.com/nufeng1999/Mymacroprocessor/',
-    download_url='https://github.com/nufeng1999/Mymacroprocessor/releases/tag/0.0.1',
+    download_url='https://github.com/nufeng1999/Mymacroprocessor/releases/tag/0.0.3',
     packages=setuptools.find_packages(),
 	classifiers=[
 		"Programming Language :: Python :: 3",
